@@ -28,9 +28,10 @@ public class Exam28menuA {
         int избор = Keyboard.nextInt();
         String текст;
     
-        do{   System.out.print("Изберете възможност (1-5): ");
+        do{
+            System.out.print("Изберете възможност (1-5): ");
         избор = Keyboard.nextInt();
-        switch(избор){ // v zavisimost ot izbor pravi switch!
+        switch(избор){ // 
 
             case 1: текст = "Вие избрахте 1: Теглене на сума"; break;
             case 2: текст = "Вие избрахте 2: Промяна на PIN"; break;

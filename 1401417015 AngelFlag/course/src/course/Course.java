@@ -11,6 +11,11 @@ package course;
  */
 import java.util.Scanner;
 
+//Дефинирайте клас който отразява човек.
+//За решаване на конкретен проблем от всички характерситики на човека ни интересуват име,
+//фамилия и години. Класът трябва да съдържа функционалност,
+//която позволява на всеки конкретен обект
+//от този клас да се представи с името, фамилията и възрастта си.
 public class Course {
 
     /**
@@ -18,31 +23,27 @@ public class Course {
      */
     public static void main(String[] args) {
         Scanner Keyboard= new Scanner(System.in);
-        boolean exit = false;
-        
-        do {
-            System.out.println("type 'exit' to exit this program...");
-            input = Keyboard.nextLine();
-            if(input.equals("exit")){
-                exit = true;
-        }while(exit == false);
-       
-                
-            }
-        }while(exit == false);
-        System.out.println("Goodbye");
-        
-            }
-        }
+
+        System.out.println("Какво е вашето име?");
+        String Name = Keyboard.nextLine();
+
+        System.out.println("Каква е вашата фамилия?");
+        String Family = Keyboard.nextLine();
+
+        System.out.println("На колко години сте?");
+        int Age = Keyboard.nextInt();
     
-        Boolean hello = true;
         
-        while(hello)
-        {
-            System.out.println("Hello");
-            hello = false;
-            
-        }
+        Person();
     }
+    
         
+    public static void Person() {
+        String Name = ("Angel"); 
+        int Age = 33;
+        
+        System.out.print("Моето име е:" + Name + " И съм на " + Age + "Години");
+    }
+}
+
         

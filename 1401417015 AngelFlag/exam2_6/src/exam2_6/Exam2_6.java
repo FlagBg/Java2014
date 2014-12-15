@@ -16,8 +16,8 @@ public class Exam2_6 {
     public static void m1(int a, int b){
         
             int m = a;
-            if (m < b);
-            m = a;
+            if (m > b)
+            m = b;
             //
             
         System.out.println(m);
