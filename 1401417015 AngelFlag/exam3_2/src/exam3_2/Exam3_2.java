@@ -26,7 +26,7 @@ public class Exam3_2 {
     }
     
     public static void main(String[] args) {
-        double m[] = {4.5,-8.1,9,-3,8};
+        double m[] = {4.8,-4.1,5,-2,7};
 
     srednoAritm(m);
     
