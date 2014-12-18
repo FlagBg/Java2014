@@ -15,6 +15,7 @@ public class Exam2_7menu {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
         System.out.println("Меню"); // Извеждане на менюто в конзолата
         System.out.println(" 1. Теглене на сума");
         System.out.println(" 2. Промяна на PIN");
