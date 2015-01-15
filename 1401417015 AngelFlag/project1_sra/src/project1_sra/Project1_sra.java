@@ -21,7 +21,7 @@ public class Project1_sra {
     
     public static void main(String[] args) {
         
-       int[] arr = new int[7];
+       int[] arr = new int[6];
         //public static int arr[] = {}; 
 //    arr[0] = generate();
 //    arr[1] = generate();

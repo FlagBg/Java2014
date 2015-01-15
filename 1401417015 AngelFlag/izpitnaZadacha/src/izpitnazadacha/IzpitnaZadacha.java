@@ -22,7 +22,6 @@ public class IzpitnaZadacha {
         //
         //Ако прав кръгов цилиндър има височина h и радиус r, то обемът му се дава с формулата
         //V = \PI r^2 h,
-        // TODO code application logic here
     }
     
 }

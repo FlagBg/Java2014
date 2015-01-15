@@ -13,11 +13,28 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int i=1;
-        while(i<15)
-        {
-        System.out.println(i);
-        i= i+1;
-// TODO code application logic here
-    }   
-}
+        
+        int  zdravei= 1;
+        String zdrastiKak = "zdraveee";
+        String alyori = Integer.toString(zdravei);
+        System.out.println(zdravei);
+        zdrastiKak+=alyori;
+        System.out.println(zdrastiKak);
+    }
+//        int i=0;
+//        while(i<=5)
+//        {
+//        System.out.println(i);
+//        i= i+1;
+//// TODO code application logic here
+//    }   
+//            
+//    int a=0;
+//        do{
+//            System.out.println(a++); 
+//        }
+//        while(a<=5);
+//}
+//}
+//
+//

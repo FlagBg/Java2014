@@ -20,7 +20,7 @@ public class Exam4_2 {
     }
     
     public static void низовеЗапочващиС(String m[], String search){
-        System.out.println("Елементи съдържащи 'и'" + search + ":");
+        System.out.println("Елементи съдържащи 'и' " + search + ":");
         
             for (int i=0; i<m.length; i++)
                 if (m[i].toLowerCase().contains(search.toLowerCase()))
