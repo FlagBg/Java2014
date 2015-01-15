@@ -20,21 +20,21 @@ public class Main {
         System.out.println(zdravei);
         zdrastiKak+=alyori;
         System.out.println(zdrastiKak);
-    }
-//        int i=0;
-//        while(i<=5)
-//        {
-//        System.out.println(i);
-//        i= i+1;
-//// TODO code application logic here
-//    }   
-//            
-//    int a=0;
-//        do{
-//            System.out.println(a++); 
-//        }
-//        while(a<=5);
 //}
-//}
-//
-//
+        int i=0;
+        while(i<=5)
+        {
+        System.out.println(i);
+        i= i+1;
+// TODO code application logic here
+    }   
+            
+    int a=0;
+        do{
+            System.out.println(a++); 
+        }
+        while(a<=5);
+}
+}
+
+
