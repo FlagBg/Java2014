@@ -12,8 +12,8 @@ public class Extend {
         classEdno B = new classEdno();
         classTwo BB = new classTwo();
         
-        B.classEdno();
-        BB.classEdno();
+        B.classTwo();
+        BB.classTwo();
         }
     }
     

@@ -10,7 +10,7 @@ package extend;
  * @author THE NET
  */
 public class classTwo {
-    public void classEdno(){
+    public void classTwo(){
         System.out.println("ClassTwo");
     }
     

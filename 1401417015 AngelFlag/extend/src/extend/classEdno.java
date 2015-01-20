@@ -10,7 +10,7 @@ package extend;
  * @author THE NET
  */
 public class classEdno extends classTwo{
-    public void classEdno(){
-        System.out.println("ClassEdno i Class dve sled malko + ");
+    public void classTwo(){
+        System.out.println("ClassEdno i Class dve sled malko  ");
     }
 }
