@@ -14,27 +14,46 @@ public class Main {
      */
     public static void main(String[] args) {
         
-        int  zdravei= 1;
-        String zdrastiKak = "zdraveee";
-        String alyori = Integer.toString(zdravei);
-        System.out.println(zdravei);
-        zdrastiKak+=alyori;
-        System.out.println(zdrastiKak);
+        
+        for (int i = 1; i<10; i++){
+        
+            System.out.println(i);
+    }
+    }
+}
+
+    
+        
+//        int i = 10;
+//        while (i<50){
+//            i = i*2;
+//            System.out.println(i);
+        
+//        
+//        for(int i=0; i<100; i++){
+//            System.out.println(i);
+//        }
+        
+//        int  zdravei= 1;
+//        String zdrastiKak = "zdraveee";
+//        String alyori = Integer.toString(zdravei);
+//        System.out.println(zdravei);
+//        zdrastiKak+=alyori;
+//        System.out.println(zdrastiKak);
+////}
+//        int i=0;
+//        while(i<=5)
+//        {
+//        System.out.println(i);
+//        i= i+1;
+//// TODO code application logic here
+//    }   
+//            
+//    int a=0;
+//        do{
+//            System.out.println(a++); 
+//        }
+//        while(a<=5);
 //}
-        int i=0;
-        while(i<=5)
-        {
-        System.out.println(i);
-        i= i+1;
-// TODO code application logic here
-    }   
-            
-    int a=0;
-        do{
-            System.out.println(a++); 
-        }
-        while(a<=5);
-}
-}
-
-
+//}   
+//

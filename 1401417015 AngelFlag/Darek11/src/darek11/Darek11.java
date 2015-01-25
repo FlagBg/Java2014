@@ -14,7 +14,7 @@ public class Darek11 {
         ArrayList arrayListOne;
         arrayListOne = new ArrayList();
         
-        ArrayList arrayListTwo = new ArrayList();
+        //ArrayList arrayListTwo = new ArrayList();
         
         ArrayList<String> names = new ArrayList<String>();
         names.add("John Smith");

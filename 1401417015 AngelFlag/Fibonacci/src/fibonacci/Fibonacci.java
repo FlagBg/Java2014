@@ -18,7 +18,7 @@ public class Fibonacci {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        System.out.print("enter number:");
+        System.out.print("enter numbers:");
         int number = input.nextInt();
         int count=1;
         int c =1,b=1,a=0;
