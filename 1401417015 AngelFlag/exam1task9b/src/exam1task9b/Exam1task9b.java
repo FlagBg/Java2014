@@ -12,10 +12,7 @@ package exam1task9b;
 import java.util.Scanner;
 public class Exam1task9b {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void bigger(double d1, double d2) {
+        public static void bigger(double d1, double d2) {
     double d3 = d1 * d2;
     if(d3>50);
     {System.out.println(d1 + "*" + d2 + "=" + d3);
@@ -23,7 +20,8 @@ public class Exam1task9b {
     }
        public static void main(String[] args) 
        {
-           f(11,12);
+//          2
+      
         double d1 = 4.5; double d2 = 5;
         bigger(d1,d2);
         bigger(5,10);
@@ -38,15 +36,11 @@ public class Exam1task9b {
     scanner.close ();
     if((i*j)>50);
     System.out.println(i * j);
-  
-    }
-        private static void Falcon(double 28, double 3.4);
-
-    System.out.println(a1*)
-    }
-{
-    
-}
-    
-    
-}
+        }
+       
+        }
+//        private static void Falcon(double 28, double 3.4);
+//
+//    System.out.println(a1*)
+////    }
+//{

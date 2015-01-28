@@ -15,7 +15,7 @@ public class Exam2_11 {
      */
     public static void main(String[] args) {
         
-        int[] myArray = {1,2,3,4,5};
+        int[] myArray = {6,7,8,9,10};
         int[] array = {1,2,3,4,5};
         m1(myArray); 
         m2(array);
@@ -43,6 +43,3 @@ public class Exam2_11 {
         //array[i] = input.nextInt();
        
     }
-    
-}
-}

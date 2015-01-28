@@ -28,3 +28,4 @@ public class Exam2_41 {
             max1(34,4);
         
         }
+}

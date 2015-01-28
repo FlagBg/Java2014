@@ -18,10 +18,11 @@ public class Exam1task9c {
     public static void m(double d1, double d2){
         if (d1+d2> 20)
         System.out.println((d1+d2)*(d1-d2));
-        else
-        System.out.println((d1+d2)/5));
+            else
+            System.out.println("PARAGRAFF 22");
         
     }
+    
     public static void main(String[] args) {
         m(11,15);
         m(5,11);

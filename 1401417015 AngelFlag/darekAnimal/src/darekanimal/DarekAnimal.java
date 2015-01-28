@@ -15,7 +15,7 @@ public class DarekAnimal {
         System.out.println(genericAnimal.getName());
         System.out.println(genericAnimal.favFood);
         
-        Cats morris = new Cats("Morris", "Tuna", "Rubber mouse");
+        Cat morris = new Cat("Morris", "Tuna", "Rubber mouse");
         
         System.out.println(morris.getName());
         System.out.println(morris.favFood);
@@ -34,12 +34,12 @@ public class DarekAnimal {
         randAnimal.walkAround();
         
         System.out.println(randAnimal.favFood);
-        Cats tempCat = (Cats) randAnimal;
+        Cat tempCat = (Cat) randAnimal;
         System.out.println(tempCat.favToy);
         
-        System.out.println(((Cats)randAnimal).favToy);
-       // ((Cats)randAnimal)
-        if( randAnimal instanceof Cats){
+        System.out.println(((Cat)randAnimal).favToy);
+       // ((Cat)randAnimal)
+        if( randAnimal instanceof Cat){
             System.out.println(randAnimal.getName() + "is a Cat");
         }
     }

@@ -10,7 +10,7 @@ public class Darek13 {
     
     
     public static void main(String[] args) {
-        String randomString = "I am just a randomstring";
+        String randomString = "I am just a random string";
         String gotToQuote= "He said, \"I'm here\"";
         
         int numTwo = 2;
