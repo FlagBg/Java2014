@@ -3,12 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package animals;
+package exam_feb1;
 
 
-public class Animal {
-    public void makeNoise() {
-        System.out.println("Grrrrrrrrr");
-    }
+public interface printInfo {
+    public void printInfo();
 }
-   

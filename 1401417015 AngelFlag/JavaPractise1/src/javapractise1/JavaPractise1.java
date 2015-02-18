@@ -3,18 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package animals;
+package javapractise1;
 
 /**
  *
  * @author THE NET
  */
-public class Dog extends Animal{
+public class JavaPractise1 {
 
-    @Override
-    public void makeNoise() {
-        super.makeNoise();
-        System.out.println("Woof");
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
     }
     
 }

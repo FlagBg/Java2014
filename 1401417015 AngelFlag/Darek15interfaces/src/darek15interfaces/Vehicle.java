@@ -5,10 +5,7 @@
  */
 package darek15interfaces;
 
-/**
- *
- * @author THE NET
- */
+
 public class Vehicle implements Drivable {
     
     

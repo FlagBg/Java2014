@@ -1,19 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package oop1_myworld;
 
-/**
- *
- * @author THE NET
- */
+
 public class Person {
     //public String name;
     //public int Age;
-    private String name;
-    private int age;
+    protected String name;
+    protected int age;
     
     public static final double PI = 3.14;
     

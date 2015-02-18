@@ -5,10 +5,7 @@
  */
 package human;
 
-/**
- *
- * @author THE NET
- */
+
 public class student extends Human{
     String Fi;
 
@@ -19,6 +16,7 @@ public class student extends Human{
     public String toString(){
         
         return super.toString() + " Той е студент с Fi: " + Fi;
+        
         
     }
 }

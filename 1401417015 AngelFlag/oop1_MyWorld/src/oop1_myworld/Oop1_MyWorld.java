@@ -1,19 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package oop1_myworld;
 
-/**
- *
- * @author THE NET
- */
+
 public class Oop1_MyWorld {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         
         System.out.println("I am proud with my greatest invention PI " + Person.PI);
@@ -40,8 +31,20 @@ public class Oop1_MyWorld {
     
         Anonymous.introduceYourself();
         //System.out.println("I am a person! My name is " + Anonymous.getName() + " I am " + Anonymous.getage() + " Old");
+    Person Ivan = new Person("Ivan",22);
     
-    } 
-   
+    Ivan.introduceYourself();
     
+    Person Angel = new Student();
+    Angel.setName("Angel");
+    Angel.setAge(35);
+    
+    //Angel.setfNumber(facultNomer);
+    Angel.introduceYourself();
+    Student iv40 = new Student("14040402","Iv40",33);
+    iv40.introduceYourself();
+    
+    Athlete Ivan4o = new Athlete("Box","Ivan",22);
+    Ivan4o.introduceYourself();
+    }    
 }

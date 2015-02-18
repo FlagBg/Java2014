@@ -16,4 +16,8 @@ public class Cat extends Animal {
         System.out.println("Miauuuuuuu");
     }
     
+//    public void onlyForCat(){
+//            System.out.println("Cat Only");
+//    }
+    
 }

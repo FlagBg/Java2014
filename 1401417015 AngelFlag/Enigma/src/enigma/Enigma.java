@@ -13,9 +13,7 @@ package enigma;
 
 //    public static void main(String[] args) {
 //        
-//    }
-//    
-//}
+
 
 /** ------------------------------------------------------------------------ 
  * Enigma.java

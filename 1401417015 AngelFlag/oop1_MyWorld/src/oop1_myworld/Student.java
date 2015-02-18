@@ -1,17 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package oop1_myworld;
 
-/**
- *
- * @author THE NET
- */
+
 public class Student extends Person{
   
-    private String fNumber;
+    protected String fNumber;
 
     public String getfNumber() {
         return fNumber;
@@ -27,18 +20,19 @@ public class Student extends Person{
     }
 
     public Student() {
-        this("Test",45);
-        fNumber = "No facult number";
+        //this("Test",45);
+        fNumber = "3213123112312";
     }
     
-        public Student(String name,int age) {
+       public Student(String name,int age) {
     super(name,age);  
    
     }
+        
         @Override
             public void introduceYourself(){
                 super.introduceYourself();
-                System.out.println("I am a student. My name is: " + name + " and  My fNumber is = " + fNumber);
+                System.out.println("I am a student. My name is: " + name + " and  My fNumber is: " + fNumber + " I am " + age + " years old. ");
             }
 
             @Override

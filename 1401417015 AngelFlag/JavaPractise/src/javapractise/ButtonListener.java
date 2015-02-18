@@ -3,18 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package animals;
+package javapractise;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 /**
  *
  * @author THE NET
  */
-public class Dog extends Animal{
+public class ButtonListener implements ActionListener {
 
     @Override
-    public void makeNoise() {
-        super.makeNoise();
-        System.out.println("Woof");
+    public void actionPerformed(ActionEvent ae) {
+        System.out.println("ZDRASTI");
     }
     
 }

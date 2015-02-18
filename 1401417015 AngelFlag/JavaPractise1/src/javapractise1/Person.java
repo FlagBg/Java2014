@@ -3,12 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package animals;
+package javapractise1;
 
 
-public class Animal {
-    public void makeNoise() {
-        System.out.println("Grrrrrrrrr");
-    }
-}
+public interface Person {
    
+    public void printInfo(); 
+}

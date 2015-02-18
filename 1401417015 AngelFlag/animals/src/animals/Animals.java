@@ -15,16 +15,21 @@ public class Animals {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Animal[] myAnimals = new Animal[5];
-        Cat fluffy = new Cat();
-        Dog sharo = new Dog();
         
+        Animal[] myAnimals = new Animal[5];
+        Animal fluffy = new Cat();
+        Animal sharo = new Dog();
+        
+       // fluffy.onlyForCat();
         
         myAnimals[0] = fluffy;
         myAnimals[1] = sharo;
         
         myAnimals[0].makeNoise();
         myAnimals[1].makeNoise();
+        
+        fluffy.makeNoise();
+        sharo.makeNoise();
         
     }
     

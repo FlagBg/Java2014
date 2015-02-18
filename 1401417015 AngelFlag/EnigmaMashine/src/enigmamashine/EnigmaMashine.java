@@ -58,7 +58,7 @@ public class EnigmaMashine {
         // Now fill the dictionary array list with words from the dictionary file
         readInDictionaryWords();
             	
-        String cipherText = " ";      // stores user Input in main loop
+        String cipherText = "";      // stores user Input in main loop
         char[] cipherTextArray;		 // starts with the cipherText; Eventually will store the decrypted text
         
         // Display identifying information
@@ -208,7 +208,7 @@ public class EnigmaMashine {
     	// first make a copy of the original array so we have the values to use
     	// while we modify the original
     	char[] theRotorCopy = new char[ theRotor.length];
-       	for ( int i=0; i<theRotor.length; i++) {
+       	for (int i=0; i<theRotor.length; i++) {
        		theRotorCopy[ i] = theRotor[ i];
        	}
        	     	

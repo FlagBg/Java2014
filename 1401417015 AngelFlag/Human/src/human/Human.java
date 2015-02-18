@@ -5,10 +5,6 @@
  */
 package human;
 
-/**
- *
- * @author THE NET
- */
 public class Human {
         String Name;
         int Age;
